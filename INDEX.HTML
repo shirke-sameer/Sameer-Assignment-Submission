@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Website</title>
+    <link rel="icon" type="image/x-icon" href="./images/fav.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assignment.css">
+
+<body>
+
+    <div class="container">
+        <section class="heroImage ">
+            <div class="selectlocation">
+                <h1>
+                    Find the best resturants, cafes and bars
+                </h1>
+                <select class="selectitem">
+                    <option value="" selected disabled> Select your location</option>
+                    <option value="">Banglore</option>
+                    <option value="">Noida</option>
+                    <option value="">Delhi</option>
+                </select>
+                <input type="text" class="selectrestaurant" placeholder=" Search for restaurants">
+            </div>
+        </section>
+
+
+
+        <section>
+
+            <div class="title ">
+                <div class="textbox">
+                    <h2>
+                        Quick Searches
+                    </h2>
+                    <h4>
+                        Discover resturants by type of meal
+                    </h4>
+                </div>
+            </div>
+
+
+            <div class="row">
+
+                <div onclick=test("I_am_Breakfast") class="col">
+                    <div class="card">
+                        <img src="./images/breakfast.png" class="card-img-top" alt="breakfast">
+                        <div class="card-body">
+                            <br>
+                            <strong>Breakfast</strong> <br>
+                            Start your day with exclusive breakfast options
+                        </div>
+                    </div>
+                </div>
+
+                <div onclick=test("I_am_Lunch") class="col">
+                    <div class="card">
+                        <img src="./images/lunch.png" class="card-img-top" alt="breakfast">
+                        <div class="card-body">
+                            <br>
+                            <strong>Lunch</strong> <br>
+                            Start your day with exclusive breakfast options
+                        </div>
+                    </div>
+                </div>
+
+                <div onclick=test("I_am_Snacks") class="col">
+                    <div class="card">
+                        <img src="./images/snacks.png" class="card-img-top" alt="breakfast">
+                        <div class="card-body">
+                            <br>
+                            <strong>Snacks</strong> <br>
+                            Start your day with exclusive breakfast options
+                        </div>
+                    </div>
+                </div>
+
+                <div onclick=test("I_am_Dinner") class="col">
+                    <div class="card">
+                        <img src="./images/dinner.png" class="card-img-top" alt="breakfast">
+                        <div class="card-body">
+                            <br>
+                            <strong>Dinner</strong> <br>
+                            Start your day with exclusive breakfast options
+                        </div>
+                    </div>
+                </div>
+
+                <div onclick=test("I_am_Drinks") class="col">
+                    <div class="card">
+                        <img src="./images/drinks.png" class="card-img-top" alt="breakfast">
+                        <div class="card-body">
+                            <br>
+                            <strong>Drinks</strong> <br>
+                            Start your day with exclusive breakfast options
+                        </div>
+                    </div>
+                </div>
+
+                <div onclick=test("Its_my_Nightlife") class="col">
+                    <div class="card">
+                        <img src="./images/nightlife.png" class="card-img-top" alt="breakfast">
+                        <div class="card-body">
+                            <br>
+                            <strong>Nightlife</strong> <br>
+                            Start your day with exclusive breakfast options
+                        </div>
+                    </div>
+                </div>
+
+
+        </section>
+    </div>
+</body>
+
+    <script type="text/javascript">
+
+         function test(name) {
+           alert(name)
+         }
+    </script>
+
+</html>

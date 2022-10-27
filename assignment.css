@@ -1,0 +1,85 @@
+
+
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.heroImage {
+    background: url(./images/background\ image.png);
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.selectlocation{
+    text-align: center  
+}
+
+
+.selectlocation h1{
+    padding-top: 30vh;
+    font-size: 3vw;
+}
+
+
+.selectitem{
+    width: 13vw;
+    height: 5vh;
+    font-size: 1.1vw;
+    opacity: 80%;
+}
+
+
+.selectrestaurant{
+    width: 13vw;
+    height: 5vh;
+    font-size: 1.1vw;
+    opacity: 80%;
+}
+
+
+.card-img-top{
+ height: 160px;
+ width: 160px;
+}
+
+
+.card-body{
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 12px;
+    color: #192F60;
+ }
+
+
+.card{
+    display: flex
+}
+
+
+.row{
+    text-align: center;
+}
+
+
+.col{
+    width: 360px;
+    height: 160px ;
+    display: inline-block;
+    margin: 11px;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    }
